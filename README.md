@@ -6,7 +6,7 @@ enviroment : amazon linux 2
 
 First you have to access root account
 
-sudo su -> cd /etc/sudoers.d
+sudo su (in default, change root access) -> cd /etc/sudoers.d
 
 vi 90-cloud-init-users
 
