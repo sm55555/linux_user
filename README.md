@@ -6,6 +6,6 @@ How to check user permission about root ?
 
 #### you have to access root account
 
-sudo su -> vi /etc/sudoers.d/vi 90-cloud-init-users
+sudo su -> vi /etc/sudoers.d/90-cloud-init-users
 
 
