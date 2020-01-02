@@ -1,4 +1,4 @@
-# linux_user managing 
+# linux_user_managing 
 
 ### enviroment : amazon linux 2
 
