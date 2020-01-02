@@ -27,3 +27,9 @@ su example -> But you have to intialize password
 -> sudo passwd sm5
 
 -> su example -> Success !
+
+* * *
+
+### 4. How to delete user?
+
+sudo userdel -r [OPTION] example
