@@ -33,3 +33,4 @@ su example -> But you have to intialize password
 ### 4. How to delete user?
 
 sudo userdel -r [OPTION] example
+
