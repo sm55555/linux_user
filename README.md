@@ -64,6 +64,8 @@ Password:
 
 ~~~
 
-sudo userdel -r [OPTION] example
+[ec2-user@ip-10-0-0-86 ~]$ sudo userdel -r sm5
+[ec2-user@ip-10-0-0-86 ~]$ cd /home/ && ls
+ec2-user
 
 ~~~
