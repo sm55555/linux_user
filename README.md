@@ -2,7 +2,7 @@
 
 enviroment : amazon linux 2
 
-### 1. How to check user permission about root?
+### How to check user permission about root?
 
 First you have to access root account
 
@@ -21,7 +21,7 @@ example2 ALL=(ALL) NOPASSWD:ALL
 
 ~~~
 
-### 2. How to add user?
+### How to add user?
 
 ~~~
 
@@ -31,7 +31,7 @@ m means create deafault folder
 
 ~~~
 
-### 3. How to access user?
+### How to access user?
 
 But you have to intialize password
 
@@ -60,7 +60,7 @@ Password:
 
 ~~~
 
-### 4. How to delete user?
+### How to delete user?
 
 ~~~
 
@@ -69,3 +69,5 @@ Password:
 ec2-user
 
 ~~~
+
+### The difference between sudo, su, su-
