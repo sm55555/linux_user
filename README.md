@@ -25,7 +25,7 @@ example2 ALL=(ALL) NOPASSWD:ALL
 
 ~~~
 
-sudo useradd -m example
+sudo useradd -m sm5
 
 m means create deafault folder
 
@@ -37,11 +37,26 @@ But you have to intialize password
 
 ~~~
 
-su example
+[ec2-user@ip-10-0-0-86 /]$ cd /home/
+[ec2-user@ip-10-0-0-86 home]$ ls
+ec2-user  sm5
+[ec2-user@ip-10-0-0-86 home]$ cd sm5
+-bash: cd: sm5: Permission denied
+[ec2-user@ip-10-0-0-86 home]$ su sm5
+Password: 
 
-sudo passwd sm5
+crtrl + c
 
-su example
+you need password setting
+
+[ec2-user@ip-10-0-0-86 home]$ sudo passwd sm5
+Changing password for user sm5.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[ec2-user@ip-10-0-0-86 home]$ su sm5
+Password: 
+[sm5@ip-10-0-0-86 home]$ 
 
 ~~~
 
