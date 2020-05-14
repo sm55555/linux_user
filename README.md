@@ -85,5 +85,9 @@ su - 는 다음유저로 변경하면서 환경변수까지 모두 전환한다.
 ```
 su - run a command with substitute user and group ID
 
+OPTIONS
+
+  -c command, --command=command
+          pass command to the shell with the -c option
 
 ```
